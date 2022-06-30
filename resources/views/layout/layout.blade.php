@@ -65,7 +65,7 @@
                     <ul>
                         <li><a href="{{route('home')}}">Inicio</a></li>
                         <li><a href="{{route('rooms')}}">Habitaciones</a></li>
-                        <li><a href="installations/">Instalaciones</a></li>
+                        <li><a href="{{route('installations')}}">Instalaciones</a></li>
                         {{-- {# <li><a href="promotions/">Promociones</a></li> #} --}}
                         <li><a href="services/">Servicios</a></li>
                         <li><a href="contact/">Contacto</a></li>
@@ -123,7 +123,7 @@
                         <ul>
                         <li><a href="{{route('home')}}">Inicio</a></li>
                         <li><a href="{{route('rooms')}}">Habitaciones</a></li>
-                        <li><a href="installations/">Instalaciones</a></li>
+                        <li><a href="{{route('installations')}}">Instalaciones</a></li>
                         <li><a href="services/">Servicios</a></li>
                         <li><a href="contact/">Contacto</a></li>
                         </ul>
