@@ -63,8 +63,8 @@
                 </div>
                 <nav class="main-menu mobile-menu">
                     <ul>
-                        <li><a href="">Inicio</a></li>
-                        <li><a href="rooms/">Habitaciones</a></li>
+                        <li><a href="{{route('home')}}">Inicio</a></li>
+                        <li><a href="{{route('rooms')}}">Habitaciones</a></li>
                         <li><a href="installations/">Instalaciones</a></li>
                         {{-- {# <li><a href="promotions/">Promociones</a></li> #} --}}
                         <li><a href="services/">Servicios</a></li>
@@ -121,8 +121,8 @@
                     <div class="col-lg-12">
 
                         <ul>
-                        <li><a href="">Inicio</a></li>
-                        <li><a href="rooms/">Habitaciones</a></li>
+                        <li><a href="{{route('home')}}">Inicio</a></li>
+                        <li><a href="{{route('rooms')}}">Habitaciones</a></li>
                         <li><a href="installations/">Instalaciones</a></li>
                         <li><a href="services/">Servicios</a></li>
                         <li><a href="contact/">Contacto</a></li>
