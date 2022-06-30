@@ -20,3 +20,5 @@ Route::get('/rooms', function () {return view('rooms.index');})->name('rooms');
 Route::get('/installations', function () {return view('installations.index');})->name('installations');
 
 Route::get('/services', function () {return view('services.index');})->name('services');
+
+Route::get('/contact', function () {return view('contact.index');})->name('contact');

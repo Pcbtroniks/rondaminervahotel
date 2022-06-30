@@ -66,9 +66,8 @@
                         <li><a href="{{route('home')}}">Inicio</a></li>
                         <li><a href="{{route('rooms')}}">Habitaciones</a></li>
                         <li><a href="{{route('installations')}}">Instalaciones</a></li>
-                        {{-- {# <li><a href="promotions/">Promociones</a></li> #} --}}
                         <li><a href="{{route('services')}}">Servicios</a></li>
-                        <li><a href="contact/">Contacto</a></li>
+                        <li><a href="{{route('contact')}}">Contacto</a></li>
                     </ul>
                 </nav>
                 <div id="mobile-menu-wrap"></div>
@@ -119,13 +118,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-
                         <ul>
-                        <li><a href="{{route('home')}}">Inicio</a></li>
-                        <li><a href="{{route('rooms')}}">Habitaciones</a></li>
-                        <li><a href="{{route('installations')}}">Instalaciones</a></li>
-                        <li><a href="{{route('services')}}">Servicios</a></li>
-                        <li><a href="contact/">Contacto</a></li>
+                            <li><a href="{{route('home')}}">Inicio</a></li>
+                            <li><a href="{{route('rooms')}}">Habitaciones</a></li>
+                            <li><a href="{{route('installations')}}">Instalaciones</a></li>
+                            <li><a href="{{route('services')}}">Servicios</a></li>
+                            <li><a href="{{route('contact')}}">Contacto</a></li>
                         </ul>
                     </div>
                 </div>
