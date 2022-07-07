@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Arborea Hotel en Guadalajara, Jalisco">
+    <meta name="description" content="Ronda Minerva Hotel en Guadalajara, Jalisco">
     <meta name="keywords" content="Hotel, comfort, alberca, minerva, gdl, barato, tequila, centro">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Arborea Hotel | En Guadalajara, Jalisco</title>
+    <title>Ronda Minerva Hotel | En Guadalajara, Jalisco</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
@@ -85,7 +85,7 @@
                 <div class="col-lg-4">
                     <div class="footer-item">
                         <div class="footer-logo">
-                            <a href="#"><img src="{{ asset('custom/img/logo.png')}}" alt=""></a>
+                            <a href="#"><img src="{{ asset('/img/logos/Ronda_Minerva-Logotipo.png')}}" alt=""></a>
                         </div>
                         <p></p>
                     </div>

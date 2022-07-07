@@ -94,14 +94,14 @@
                     <div class="intro-left">
                         <div class="section-title">
                             <span>En la ciudad más bonita de México:</span>
-                            <h2>Hotel Arborea</h2>
+                            <h2>Ronda Minerva Hotel</h2>
                         </div>
-                        <p>Hotel Arborea es una joya de la cultura de Jalisco, ubicado en el corazón de la capital tapatía, es un referente de la historia de la ciudad. A menos de 3 cuadras de La Minerva, uno de los sitios más representativos del país. Bajando al centro, a menos de 800 metros se encuentra Av. Chapultepec, el lugar en donde estar si se trata de la vida nocturna. </p>
+                        <p>Ronda Minerva Hotel es una joya de la cultura de Jalisco, ubicado en el corazón de la capital tapatía, es un referente de la historia de la ciudad. A menos de 3 cuadras de La Minerva, uno de los sitios más representativos del país. Bajando al centro, a menos de 800 metros se encuentra Av. Chapultepec, el lugar en donde estar si se trata de la vida nocturna. </p>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="intro-right">
-                        <p>Las opciones de comida son infinitas, la variedad de la zona es una de sus características principales. En fin, Guadalajara es una ciudad de ensueño, te invitamos a vivir la mejor experiencia en Hotel Arborea.
+                        <p>Las opciones de comida son infinitas, la variedad de la zona es una de sus características principales. En fin, Guadalajara es una ciudad de ensueño, te invitamos a vivir la mejor experiencia en Ronda Minerva Hotel.
                         </p>
                         <a href="#" class="primary-btn">Reservar Ahora</a>
                     </div>
