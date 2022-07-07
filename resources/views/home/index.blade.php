@@ -43,7 +43,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <form action="recommendations/rooms/" method="get" autocomplete="off" class="check-form">
+                    <form action="{{route('recomended-rooms')}}" method="GET" autocomplete="off" class="check-form">
+                        @csrf
                         <h4>Buscar Disponibilidad</h4>
                         <div class="datepicker">
                             <p>Del día</p>
