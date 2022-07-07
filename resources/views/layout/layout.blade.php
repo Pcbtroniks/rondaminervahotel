@@ -56,7 +56,7 @@
         <div class="container-fluid">
             <div class="inner-header">
                 <div class="logo">
-                    <a href="{{route('home')}}"><img src="{{ asset('/img/logos/Ronda_Minerva-Logotipo.png')}}" alt=""></a>
+                    <a href="{{route('home')}}"><img src="{{ asset('/img/logos/Ronda_Minerva-Logotipo.png')}}" alt="" style="width: 150px"></a>
                 </div>
                 <div class="nav-right">
                     <a href="#" class="primary-btn">WhatsApp</a>
