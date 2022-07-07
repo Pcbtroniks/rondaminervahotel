@@ -56,7 +56,7 @@
         <div class="container-fluid">
             <div class="inner-header">
                 <div class="logo">
-                    <a href="{{route('home')}}"><img src="{{ asset('/img/logos/Ronda_Minerva-Logotipo.png')}}" alt="" style="width: 150px"></a>
+                    <a href="{{route('home')}}"><img src="{{ asset('/img/logos/Ronda_Minerva-Logotipo.png')}}" loading="lazy" alt="Ronda Minerva Hotel Logo" width="150px"></a>
                 </div>
                 <div class="nav-right">
                     <a href="#" class="primary-btn">WhatsApp</a>
@@ -85,7 +85,7 @@
                 <div class="col-lg-4">
                     <div class="footer-item">
                         <div class="footer-logo">
-                            <a href="#"><img src="{{ asset('/img/logos/Ronda_Minerva-Logotipo.png')}}" alt=""></a>
+                            <a href="#"><img loading="lazy" alt="Ronda Minerva Hotel Logo" src="{{ asset('/img/logos/Ronda_Minerva-Logotipo.png')}}"></a>
                         </div>
                         <p></p>
                     </div>

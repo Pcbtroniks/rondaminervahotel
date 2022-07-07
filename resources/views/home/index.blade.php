@@ -278,22 +278,22 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="about-img">
-                                <img src="{{asset('custom/img/home-about-1.png')}}" alt="">
+                                <img src="{{asset('custom/img/home-about-1.png')}}" loading="lazy" alt="Ronda Minerva Hotel">
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="about-img">
-                                <img src="{{asset('custom/img/home-about-2.png')}}" alt="">
+                                <img src="{{asset('custom/img/home-about-2.png')}}" loading="lazy" alt="Ronda Minerva Hotel">
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="about-img">
-                                <img src="{{asset('custom/img/home-about-3.png')}}" alt="">
+                                <img src="{{asset('custom/img/home-about-3.png')}}" loading="lazy" alt="Ronda Minerva Hotel">
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="about-img">
-                                <img src="{{asset('custom/img/home-about-4.png')}}" alt="">
+                                <img src="{{asset('custom/img/home-about-4.png')}}" loading="lazy" alt="Ronda Minerva Hotel">
                             </div>
                         </div>
                     </div>
