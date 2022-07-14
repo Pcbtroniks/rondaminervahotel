@@ -4,7 +4,10 @@
         
     <style media="screen">
         .fondo1 {
-            background-image: url("{{asset('custom/img/section-us.png')}}");
+            background-image: url("{{asset('custom/img/section-us-new.png')}}");
+            background-size: contain;
+            background-position: bottom;
+            background-repeat: no-repeat;
         }
 
         .fondo2 {
