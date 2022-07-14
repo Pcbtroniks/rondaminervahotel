@@ -25,7 +25,7 @@
 @section('content')
     
     <!-- Hero Area Section Begin -->
-    <section class="hero-area set-bg" data-setbg="{{ asset('/img/hero_op.jpg')}}">
+    <section class="hero-area set-bg" data-setbg="{{ asset('/img/hero-op.png')}}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">

@@ -59,7 +59,7 @@
                     <a href="{{route('home')}}"><img src="{{ asset('/img/logos/Ronda_Minerva-Sello-white.png')}}" loading="lazy" alt="Ronda Minerva Hotel Logo" width="120px"></a>
                 </div>
                 <div class="nav-right">
-                    <a href="#" class="primary-btn">WhatsApp</a>
+                    <a href="#" class="primary-btn">WhatsApp</a>git add 
                 </div>
                 <nav class="main-menu mobile-menu">
                     <ul>
