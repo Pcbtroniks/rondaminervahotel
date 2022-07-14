@@ -56,7 +56,7 @@
         <div class="container-fluid">
             <div class="inner-header">
                 <div class="logo">
-                    <a href="{{route('home')}}"><img src="{{ asset('/img/logos/logo-white.png')}}" loading="lazy" alt="Ronda Minerva Hotel Logo" width="150px"></a>
+                    <a href="{{route('home')}}"><img src="{{ asset('/img/logos/Ronda_Minerva-Sello-white.png')}}" loading="lazy" alt="Ronda Minerva Hotel Logo" width="120px"></a>
                 </div>
                 <div class="nav-right">
                     <a href="#" class="primary-btn">WhatsApp</a>
