@@ -51,8 +51,13 @@
         <div class="loader"></div>
     </div>
 
+    <div id="wrapper" class="toggled">
+    {{-- Sidebar --}}
+    @include('layout.sidebar')
+
     <!-- Header Section Begin -->
     <header class="header-section">
+        <button class="btn btn-danger" id="menu-toggle" style="margin-left: 20rem">Toggle Menu</button>
         <div class="container-fluid">
             <div class="inner-header">
                 <div class="logo">
@@ -139,6 +144,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Power
         </div>
     </footer>
     <!-- Footer Section End -->
+ </div> {{-- Wrapper End --}}
 
     <!-- Js Plugins -->
     <script src="{{ asset('/js/jquery-3.3.1.min.js')}}"></script>
@@ -150,6 +156,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Power
     <script src="{{ asset('/js/owl.carousel.min.js')}}"></script>
     <script src="{{ asset('/js/main.js')}}"></script>
     <script src="{{ asset('/js/reservation.js')}}"></script>
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+        $('body').css('overflow-x','hidden');
+    });
+    </script>
 
 </body>
 
