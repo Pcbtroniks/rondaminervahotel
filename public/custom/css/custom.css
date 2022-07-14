@@ -281,8 +281,8 @@ ol {
 	background: #262530;
 	padding-left: 30px;
 	padding-right: 30px;
-	padding-top: 30px;
-	padding-bottom: 24px;
+	padding-top: 15px;
+	padding-bottom: 10px;
 	position: absolute;
 	width: 100%;
 	left: 0;
@@ -461,7 +461,9 @@ ol {
 	z-index: 1;
 }
 
-.check-form:after {
+
+/* No transparency in home date picker */
+/* .check-form:after {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -472,7 +474,7 @@ ol {
 	opacity: 0.70;
 	z-index: -1;
 	border: 5px solid #9c704d;
-}
+} */
 
 .check-form h4 {
 	color: #ffffff;
@@ -1692,7 +1694,7 @@ ol {
 @media only screen and (min-width: 1500px) and (max-width: 1920px) {
 	.inner-header .main-menu {
 		padding: 19px;
-		margin-right: 50|px;
+		margin-right: 50px;
 	}
 	.inner-header .main-menu ul li {
 		margin-right: 69px;

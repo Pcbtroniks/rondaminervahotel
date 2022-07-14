@@ -45,7 +45,7 @@
                 <div class="col-lg-12">
                     <form action="{{route('recomended-rooms')}}" method="GET" autocomplete="off" class="check-form">
                         @csrf
-                        <h4>Buscar Disponibilidad</h4>
+                        <h4>Reservar</h4>
                         <div class="datepicker">
                             <p>Del día</p>
                             <input type="text" class="datepicker-1" name="check_in" required>
