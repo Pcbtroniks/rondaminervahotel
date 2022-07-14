@@ -282,7 +282,7 @@ ol {
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 15px;
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 	position: absolute;
 	width: 100%;
 	left: 0;
@@ -2078,6 +2078,20 @@ ol {
 
 /* Toggle Styles */
 
+/* Close nabvar */
+
+#close-navbar {
+	color: #ffffff;
+    background: red;
+    font-size: 2.5rem;
+    padding: 0 1rem;
+}
+
+.close-navbar-container {
+	display: flex;
+	justify-content: flex-end;
+
+}
 #wrapper {
 	padding-left: 0;
 	-webkit-transition: all 0.5s ease;

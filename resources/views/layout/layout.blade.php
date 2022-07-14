@@ -57,11 +57,11 @@
 
     <!-- Header Section Begin -->
     <header class="header-section">
-        <button class="btn btn-danger" id="menu-toggle" style="margin-left: 20rem">Toggle Menu</button>
+        
         <div class="container-fluid">
             <div class="inner-header">
                 <div class="logo">
-                    <a href="{{route('home')}}"><img src="{{ asset('/img/logos/Ronda_Minerva-Sello-white.png')}}" loading="lazy" alt="Ronda Minerva Hotel Logo" width="120px"></a>
+                    <a href="{{route('home')}}"><img src="{{ asset('/img/logos/Ronda_Minerva-Sello-white.png')}}" loading="lazy" alt="Ronda Minerva Hotel Logo" width="100px"></a>
                 </div>
                 <div class="nav-right">
                     <a href="#" class="primary-btn">WhatsApp</a>git add 
@@ -162,6 +162,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Power
         $("#wrapper").toggleClass("toggled");
         $('body').css('overflow-x','hidden');
     });
+
+    $("#close-navbar").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+        $('body').css('overflow-x','show');
+    });
+
     </script>
 
 </body>
