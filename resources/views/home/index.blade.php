@@ -278,7 +278,10 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="row">
+                    <div class="about-img">
+                        <img class="img-thumbnail"  src="{{asset('custom/img/home-about-1.png')}}" loading="lazy" alt="Ronda Minerva Hotel">
+                    </div>
+                    {{-- <div class="row d-none">
                         <div class="col-sm-6">
                             <div class="about-img">
                                 <img src="{{asset('custom/img/home-about-1.png')}}" loading="lazy" alt="Ronda Minerva Hotel">
@@ -299,7 +302,7 @@
                                 <img src="{{asset('custom/img/home-about-4.png')}}" loading="lazy" alt="Ronda Minerva Hotel">
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
