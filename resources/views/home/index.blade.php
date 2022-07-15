@@ -273,8 +273,30 @@
                         <div class="section-title">
                             <h2>Servicios</h2>
                         </div>
-                        <p class="texto-blanco">Ven a disfrutar de una estadía única con una gran diversidad de amenidades y servicios que ofrecemos dentro de Guadalajara, Jalisco, México. </p>
-                        <a href="{{route('services')}}" class="primary-btn boton-azul">Servicios</a>
+
+                        {{-- <p class="texto-blanco">Ven a disfrutar de una estadía única con una gran diversidad de amenidades y servicios que ofrecemos dentro de Guadalajara, Jalisco, México. </p> --}}
+                        
+                        <div class="service-icon d-flex mb-4">
+                            <img class="mr-4" src="http://rondaminervahotel.test/img/services/service-icon-1.png" alt="">
+                            <h3>Al Edén Restaurante</h3>
+                        </div>
+                        <div class="service-icon d-flex mb-4">
+                            <img class="mr-4" src="http://rondaminervahotel.test/img/services/service-icon-2.png" alt="">
+                            <h3>Alberca al aire libre</h3>
+                        </div>
+                        <div class="service-icon d-flex mb-4">
+                            <img class="mr-4" src="http://rondaminervahotel.test/img/services/service-icon-3.png" alt="">
+                            <h3>Salon de Eventos</h3>
+                        </div>
+                        <div class="service-icon d-flex mb-4">
+                            <img class="mr-4" src="http://rondaminervahotel.test/img/services/service-icon-4.png" alt="">
+                            <h3>Gimnasio</h3>
+                        </div>
+                        <div class="service-icon d-flex mb-4">
+                            <img class="mr-4" src="http://rondaminervahotel.test/img/services/service-icon-5.png" alt="">
+                            <h3>Estacionamiento</h3>
+                        </div>
+                        <a href="{{route('services')}}" class="primary-btn boton-azul">Ver todos.</a>
                     </div>
                 </div>
                 <div class="col-lg-6">
