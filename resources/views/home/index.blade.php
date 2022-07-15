@@ -271,7 +271,7 @@
                 <div class="col-lg-6">
                     <div class="about-text">
                         <div class="section-title">
-                            <h2>“La mejor experiencia <br />de hospedaje”</h2>
+                            <h2>Servicios</h2>
                         </div>
                         <p class="texto-blanco">Ven a disfrutar de una estadía única con una gran diversidad de amenidades y servicios que ofrecemos dentro de Guadalajara, Jalisco, México. </p>
                         <a href="{{route('services')}}" class="primary-btn boton-azul">Servicios</a>

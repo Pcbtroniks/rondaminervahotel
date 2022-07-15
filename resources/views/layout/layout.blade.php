@@ -12,6 +12,10 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
     <!-- Css Styles -->
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}" type="text/css">
     <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}" type="text/css">
@@ -158,6 +162,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Power
     <script src="{{ asset('/js/reservation.js')}}"></script>
     <script>
     $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+        $('body').css('overflow-x','hidden');
+    });
+    $(".slicknav_btn").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
         $('body').css('overflow-x','hidden');
