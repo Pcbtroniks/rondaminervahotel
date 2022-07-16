@@ -2208,3 +2208,10 @@ ol {
 		margin-right: 0;
 	}
 }
+
+/* Open lateral Menu */
+
+.open-sidebar {
+	font-size: 2rem;
+    padding: 0 1rem;
+}

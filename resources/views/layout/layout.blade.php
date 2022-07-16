@@ -64,13 +64,20 @@
         
         <div class="container-fluid">
             <div class="inner-header">
+                
                 <div class="logo">
-                    <a href="{{route('home')}}"><img src="{{ asset('/img/logos/Ronda_Minerva-Sello-white.png')}}" loading="lazy" alt="Ronda Minerva Hotel Logo" width="100px"></a>
+                    
+                    <i id="toggle-lateral-menu" class="text-white text-lg open-sidebar fa fa-solid fa-bars "></i>
+
+                    <a href="{{route('home')}}"><img src="{{ asset('/img/logos/Ronda_Minerva-Sello-white.png')}}" loading="lazy" alt="Ronda Minerva Hotel Logo" width="90px" style="padding-bottom: 1rem"></a>
+
                 </div>
+
                 <div class="nav-right">
-                    <a href="#" class="primary-btn">WhatsApp</a>git add 
+                    <a href="#" class="primary-btn">WhatsApp</a>
                 </div>
-                <nav class="main-menu mobile-menu">
+                {{-- Menu navbar --}}
+                {{-- <nav class="main-menu mobile-menu">
                     <ul>
                         <li><a href="{{route('home')}}">Inicio</a></li>
                         <li><a href="{{route('rooms')}}">Habitaciones</a></li>
@@ -78,7 +85,7 @@
                         <li><a href="{{route('services')}}">Servicios</a></li>
                         <li><a href="{{route('contact')}}">Contacto</a></li>
                     </ul>
-                </nav>
+                </nav> --}}
                 <div id="mobile-menu-wrap"></div>
             </div>
         </div>
@@ -162,6 +169,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Power
     <script src="{{ asset('/js/reservation.js')}}"></script>
     <script>
     $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+        $('body').css('overflow-x','hidden');
+    });
+    $("#toggle-lateral-menu").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
         $('body').css('overflow-x','hidden');
